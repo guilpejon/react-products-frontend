@@ -2,7 +2,11 @@ import React from 'react';
 import './styles.css';
 
 const Header = () => {
-  return <header id="main-header">JSHunt</header>;
+  return (
+    <header id="main-header">
+      <a href="/">JSHunt</a>
+    </header>
+  );
 };
 
 export default Header;
